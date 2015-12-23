@@ -5,7 +5,7 @@
   <title>Gamertag</title>
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
   
-  <script>
+  <script><!--Working on a converter for + into %20-->
 	function myFunction() {
     var str = document.getElementById("enc").innerHTML; 
     var res = str.replace("+", "%20");
